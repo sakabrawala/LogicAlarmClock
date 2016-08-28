@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:padding="20dp"
+    android:background="@drawable/back"
+    style="@android:style/Animation.Dialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What is log1"
+        android:layout_margin="10dp"
+        android:id="@+id/textD"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:fontFamily="Times New Roman"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/t1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Stop_the_Alarm"
+        android:id="@+id/b1"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
